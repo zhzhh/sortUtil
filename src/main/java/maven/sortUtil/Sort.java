@@ -337,8 +337,12 @@ public class Sort {
 		}
 	}
 	
+	public static int[] shell(int[] arr) {
+		return null;
+	}
+	
 	public static void main(String[] args){
-		int[] arr = new int[1000];
+		/*int[] arr = new int[1000];
 		Random random = new Random();
 		for(int i = 0 ; i < 1000 ; i++){
 			arr[i] = random.nextInt(1000);
@@ -360,7 +364,8 @@ public class Sort {
 		Sort.printArray(Sort.mergeSort_iteration2(arr));
 		end = System.currentTimeMillis();
 		System.out.println();
-		System.out.println("第二种二路归并排序用时:" + (end - begin));
+		System.out.println("第二种二路归并排序用时:" + (end - begin));*/
+	
 	}
 }
 
